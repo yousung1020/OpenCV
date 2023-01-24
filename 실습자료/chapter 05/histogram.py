@@ -30,6 +30,7 @@ def histogram_stretching(src):
     return dest
 
 src = cv2.imread('hawkes.bmp', cv2.IMREAD_GRAYSCALE)
+
 dest = histogram_stretching(src)
 dest2 = cv2.equalizeHist(src)
 

@@ -3,7 +3,7 @@ import numpy as np
 
 digits = cv2.imread('digits.png', cv2.IMREAD_GRAYSCALE)
 
-print(digits.shape)  # height: 1000, width: 2000
+# print(digits.shape)  # height: 1000, width: 2000
 h, w = digits.shape[:2]
 
 cells = []
